@@ -1,0 +1,16 @@
+
+
+.cell {
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    background-color: rgb(240, 240, 240);
+}
+
+/* Set background color and cursor for .cell when hovered */
+.cell:hover {
+    background-color: rgb(254, 254, 254);  /* Changes background color when hovered */
+}
+
+.disabledCell {
+    background-color: rgb(220, 220, 220);
+    border-radius: 0;
+}
